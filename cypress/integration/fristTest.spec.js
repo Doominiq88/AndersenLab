@@ -1,17 +1,18 @@
-///<reference types="cypress" />
+// /<reference types="cypress" />
 
-describe('Click on the Search button', () => {
-    it('first test', () => {
+describe('First test', () => {
+    it('Click on the Search button', () => {
         cy.visit('https://www.bbc.com/')
-        cy.get('input[placeholder="Search"]').type('football')
+        cy.get('input[placeholder="Search"]')
+            .type('football')
+            .should('be.visible')
+            .should('be.enabled')
         cy.get('#orb-search-button').click()
-
     })
 
-    it.only('Click on the first navigation link', () => {
+    it('Click on the first navigation link', () => {
         cy.visit('https://www.bbc.com/')
         cy.contains('News').click()
-
     })
 
 })
