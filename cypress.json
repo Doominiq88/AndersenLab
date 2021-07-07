@@ -1,0 +1,6 @@
+{
+    "BaseUrl": "https://www.bbc.com/",
+    "ignoreTestFiles": "**/integration/",
+    "vievportHeight": 1080,
+    "vievportWihdth": 1920
+}
