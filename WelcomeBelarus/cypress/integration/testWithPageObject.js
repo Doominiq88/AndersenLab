@@ -13,19 +13,4 @@ describe('Test with Page Object', () => {
         navigateTo.contactsPage()
     })
 
-    // it('about', () => {
-    //     navigateTo.aboutPage()
-    // })
-    // it('blog', () => {
-    //     navigateTo.aboutPage()
-    // })
-    // it('galery', () => {
-    //     navigateTo.galeryPage()
-    // })
-    // it('suvenirs', () => {
-    //     navigateTo.suverirsPage()
-    // })
-    // it('contacts', () => {
-    //     navigateTo.contactsPage()
-    // })
 })
